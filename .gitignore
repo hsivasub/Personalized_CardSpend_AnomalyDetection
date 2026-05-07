@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Models and artifacts
+artifacts/models/*
+!artifacts/models/.gitkeep
+artifacts/profiles/*
+!artifacts/profiles/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
